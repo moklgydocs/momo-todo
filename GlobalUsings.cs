@@ -1,0 +1,11 @@
+// Resolve WPF/WinForms type ambiguities
+global using Button = System.Windows.Controls.Button;
+global using Panel = System.Windows.Controls.Panel;
+global using CheckBox = System.Windows.Controls.CheckBox;
+global using MessageBox = System.Windows.MessageBox;
+global using Application = System.Windows.Application;
+global using Brush = System.Windows.Media.Brush;
+global using Brushes = System.Windows.Media.Brushes;
+global using KeyEventArgs = System.Windows.Input.KeyEventArgs;
+global using Cursors = System.Windows.Input.Cursors;
+global using HorizontalAlignment = System.Windows.HorizontalAlignment;
